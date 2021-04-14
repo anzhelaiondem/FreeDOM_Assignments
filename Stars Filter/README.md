@@ -1,6 +1,6 @@
 # Stars Filter
 ## Summary
-This program is designed to search in the given .tsv data file and create a .csv file that will contain the N brightest stars that are within the defined frames of equatorial coordinates. The frame is based on the provided horizontal and vertical field of view (fov\_h, fov\_v), right ascension (ra), and declination (dec). The file also contains stars' id, equatorial coordinates (ra, dec), brightness (magnitude) and the distance from the earth (very rough calculation). The data is sorted in ascending order based on distance.
+This program is designed to search in the given .tsv data file N brightest stars that are within the defined frames of equatorial coordinates. The frame is based on the provided horizontal and vertical field of view (fov\_h, fov\_v), right ascension (ra), and declination (dec) parameters. The program create a .csv file that contains those N stars. It also contains stars' id, equatorial coordinates (ra, dec), brightness (magnitude) and the distance from the earth (very rough calculation). The output data is sorted in ascending order based on the distance.
 
 ### Input
 1 The absolute path of the file/data (the file should be in .tsv format).
